@@ -1,8 +1,9 @@
 #include<stdio.h>
-/*This program returns the size of te various types in c
- * returns 0  
+/*main returns the size of te various types in c
+ * returns (0)  
  */
-int main(void){
+int main(void)
+{
 	char a;
 	int b;
 	long int c;
@@ -14,5 +15,5 @@ int main(void){
 	printf("Size of a long int: %d byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
 	printf("Size of a float: %d byte(s)\n", sizeof(e));
-	return(0);
+	return (0);
 }
