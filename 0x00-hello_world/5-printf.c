@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main-program prints using printf
+ * main - program prints a text
  *
  * return: (Success)
  */
