@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
  * main - returns the size of te various types in c
+ *
  * return 0
  */
 int main(void)
