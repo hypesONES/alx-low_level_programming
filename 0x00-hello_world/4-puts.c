@@ -2,7 +2,7 @@
 /**
  * main - function prints with the puts function
  *
- * Returns: (0) always 
+ * Returns: 0 always (Success) 
  */
 int main(void)
 {
