@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - checks if a char is uppercase
- * @c - character whose case is to be determined
+ * @c: character whose case is to be determined
  *
  * Return: Returns 1 if uppercase and zero otherwise
  */
