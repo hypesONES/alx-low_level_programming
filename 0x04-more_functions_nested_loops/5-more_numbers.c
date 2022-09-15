@@ -2,9 +2,9 @@
 /**
  * more_numbers - prints numbers 10 times
  *
- * Returns : void
+ * Returns: void
  */
-void more_numbers()
+void more_numbers(void)
 {
 	int count;
 
