@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strlen - returns th length of a string
- * @s address of sring whose length is to be checked
+ * @s: address of string whose length is to be checked
  *
  * Return: returns length od string as an integer
  */
