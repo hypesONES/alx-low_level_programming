@@ -11,18 +11,18 @@ void rev_string(char *s)
 
 	int a = 0;
 
+	char rev[];
+
 	while (s[count] != '\0')
 	{
 		count++;
 	}
 	
-	char rev;
-
 	while (count > 0)
 	{
 		count--;
 		rev[a] = s[count];
 		a++;
 	}
-	s = *rev;
+	s = rev;
 }
