@@ -14,7 +14,9 @@ void rev_string(char *s)
 		count++;
 	}
 	
-	int a = 0;
+	int a;
+
+	a = 0;
 	
 	char rev[count];
 
@@ -24,5 +26,5 @@ void rev_string(char *s)
 		rev[a] = s[count];
 		a++;
 	}
-	*s = rev;
+	s = rev;
 }
