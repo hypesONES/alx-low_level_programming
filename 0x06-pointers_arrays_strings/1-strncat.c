@@ -1,7 +1,6 @@
 #include "main.h"
 /** 
- * _strncat - concatenates two strings with and 
- * 	      inputed number of bytes from src.
+ * _strncat - concatenates two strings with a given byte
  * @dest: first parameter to concate.
  * @src: secong val to concat after first value.
  * @n: number of bytes
