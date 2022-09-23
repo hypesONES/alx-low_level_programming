@@ -22,7 +22,7 @@ char *cap_string(char *str)
 				for (j = 0; j <= 12; j++)
 				{
 					if (chars[j] == *(str + i - 1))
-						*(str + 1) -= 'a' - 'A';
+						*(str + i) -= 'a' - 'A';
 				}
 			}
 		}
