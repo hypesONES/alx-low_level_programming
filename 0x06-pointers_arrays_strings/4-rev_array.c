@@ -2,7 +2,7 @@
 /**
  * reverse_array - funcin reverses an array
  * @a: Array to be reversed.
- * @n: Size f array 
+ * @n: Size f array
  *
  * Return: returns void
  */
