@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncpy - copies a string based on bytes passed.
+ * _strncpy - copies a string based on bytes passed.
  * @dest: stores string copy.
  * @src: parameter for source string.
  * @n: number of bytes.
