@@ -21,7 +21,7 @@ char *cap_string(char *str)
 			{
 				for (j = 0; j <= 12; j++)
 				{
-					if (a[j] == *(str + i - 1))
+					if (chars[j] == *(str + i - 1))
 						*(str + 1) -= 'a' -'A';
 				}
 			}
