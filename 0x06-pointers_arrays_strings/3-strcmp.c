@@ -8,7 +8,9 @@
 */
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, diff = 0;
+	int i = 0;
+       
+	int diff = 0;
 
 	while (1)
 	{
@@ -21,7 +23,7 @@ int _strcmp(char *s1, char *s2)
 		}
 		else if (s2[i] == '\0')
 		{
-			diff s1[i];
+			diff = s1[i];
 			break;
 		}
 		else if (s1[i] != s2[i])
