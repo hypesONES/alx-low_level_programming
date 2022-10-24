@@ -21,6 +21,6 @@ int main(void)
 		b++;
 	}
 
-	reurn (0);
+	return (0);
 }
 
