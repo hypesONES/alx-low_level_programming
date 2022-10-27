@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - prints number combinations
- * 
+ *
  * Return: returns (0) - success
  */
 int main(void)
