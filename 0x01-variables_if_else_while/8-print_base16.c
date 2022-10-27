@@ -10,7 +10,7 @@ int main(void)
 
 	int b;
 
-	while (hex <= 16)
+	while (hex < 16)
 	{
 		if (hex < 10)
 			putchar(hex + '0');
