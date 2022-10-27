@@ -20,4 +20,5 @@ int main(void)
 			putchar(num + '0');
 		num++;
 	}
+	return (0);
 }
