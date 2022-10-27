@@ -8,14 +8,16 @@ int main(void)
 {
 	int hex = 0;
 
+	int b;
+
 	while (hex <= 16)
 	{
 		if (hex < 10)
 			putchar(hex + '0');
 		else
 		{
-			hex = hex + 87;
-			putchar(hex);
+			b = hex + 87;
+			putchar(b);
 		}
 		hex++;
 	}
