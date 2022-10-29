@@ -2,7 +2,7 @@
 /**
  * main - print 4 digit combination
  *
- * Return - returns (0) - success.
+ * Return: returns (0) - success.
  */
 int main(void)
 {
