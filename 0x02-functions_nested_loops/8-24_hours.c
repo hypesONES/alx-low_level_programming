@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include "main.h"
 /**
  * main - prints every minutes within 24hrs
  *
  * Return: Always returnd (0)- success
  */
-int main(void)
+void jack_bauer(void)
 {
 	int a, b;
 
@@ -29,5 +30,4 @@ int main(void)
 				putchar(b + '0');
 		}
 	}
-	return (0);
 }
