@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * main - prints every minutes within 24hrs
+ * jack_bauer - prints every minutes within 24hrs
  *
- * Return: Always returnd (0)- success
+ * Return: Always return (0)- success
  */
 void jack_bauer(void)
 {
@@ -13,7 +13,7 @@ void jack_bauer(void)
 	{
 		for (b = 0; b < 4; b++)
 		{
-			for (c = 0; c < 7; c++)
+			for (c = 0; c < 6; c++)
 			{
 				for (d = 0; d < 10; d++)
 				{
