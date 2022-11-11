@@ -19,7 +19,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(' ');
 			}
-			else if ((b * a) > 10 && b != 9)
+			else if ((b * a) >= 10 && b != 9)
 			{
 				_putchar(((b * a) / 10) + '0');
 				_putchar(((b * a) % 10) + '0');
@@ -30,7 +30,7 @@ void times_table(void)
 			{
 				_putchar((a * b) + '0');
 			}
-			else if ((b * a) > 10 && b == 9)
+			else if ((b * a) >= 10 && b == 9)
 			{
 				_putchar(((b * a) / 10) + '0');
 				_putchar(((b * a) % 10) + '0');
