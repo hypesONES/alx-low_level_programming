@@ -20,8 +20,8 @@ int print_last_digit(int num)
 	{
 		num = num * -1;
 		last_num = num % 10;
-		last_num = last_num * -1;
 		_putchar(last_num + '0');
+		last_num = last_num * -1;
 		return (last_num);
 	}
 }
