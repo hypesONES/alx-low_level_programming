@@ -20,8 +20,8 @@ void rev_string(char *s)
 	
 	while (count > 0)
 	{
-		count--;
 		rev[a] = s[count];
+		count--
 		a++;
 	}
 	s = rev;
