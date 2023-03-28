@@ -13,9 +13,9 @@ void rev_string(char *s)
 
 	char *rev;
 
-	char rev_array[];
+	char rev_array[count];
 
-	rev = &rev_array
+	rev = rev_array;
 
 	while (s[count] != '\0')
 	{
