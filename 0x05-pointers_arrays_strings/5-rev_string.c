@@ -13,7 +13,9 @@ void rev_string(char *s)
 
 	char *rev;
 
-	rev = s;
+	char b;
+
+	rev = &b;
 
 	while (s[count] != '\0')
 	{
