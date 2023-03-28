@@ -13,6 +13,10 @@ void rev_string(char *s)
 
 	char *rev;
 
+	char rev_array[];
+
+	rev = &rev_array
+
 	while (s[count] != '\0')
 	{
 		count++;
