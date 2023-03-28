@@ -11,9 +11,7 @@ void rev_string(char *s)
 
 	int a = 0;
 
-	char *rev;
-
-	rev = s;
+	char rev[sizeof(*s)];
 
 	while (s[count] != '\0')
 	{
@@ -22,9 +20,9 @@ void rev_string(char *s)
 	
 	while (count > 0)
 	{
-		*(rev + a) = s[count];
+		rev[a] = s[count];
 		count--;
 		a++;
 	}
-	s = *rev;
+	s = rev;
 }
