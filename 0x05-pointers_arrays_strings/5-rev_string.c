@@ -26,5 +26,5 @@ void rev_string(char *s)
 		count--;
 		a++;
 	}
-	s = rev;
+	s = *rev;
 }
